@@ -5,6 +5,7 @@ set expandtab
 set smarttab
 set showmatch
 set number
+set hlsearch
 
 au FileType make setlocal noexpandtab
 
