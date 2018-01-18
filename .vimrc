@@ -1,3 +1,10 @@
+"This is for enabling syntax highlighting on mac
+filetype plugin indent on
+syntax on
+
+"This has to be before other stuff for some reason
+set background=light
+
 set tabstop=4
 set shiftwidth=4
 set softtabstop=4
