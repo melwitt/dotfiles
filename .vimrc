@@ -23,3 +23,5 @@ hi ExtraWhitespace ctermbg=red
 hi OverLength ctermbg=red ctermfg=white guibg=#592929
 au BufWinEnter * let w:m1=matchadd('OverLength', '.\%>80v')
 au BufWinEnter * let w:m2=matchadd('ExtraWhitespace', '\s\+$')
+
+filetype indent on
