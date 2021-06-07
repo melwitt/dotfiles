@@ -5,16 +5,20 @@ syntax on
 "This has to be before other stuff for some reason
 set background=light
 
-set tabstop=4
-set shiftwidth=4
-set softtabstop=4
 set expandtab
-set smarttab
-set showmatch
-set number
+set formatoptions=njtcroql
 set hlsearch
+set number
+set shiftwidth=4
+set showmatch
+set smarttab
+set softtabstop=4
+set tabstop=4
 
+au FileType gitcommit setlocal tw=72 shiftwidth=2 softtabstop=2
 au FileType make setlocal noexpandtab
+au FileType python setlocal tw=80
+au FileType yaml setlocal tw=80 shiftwidth=2 softtabstop=2
 
 hi Comment ctermfg=darkgreen
 hi Search ctermbg=cyan ctermfg=black
