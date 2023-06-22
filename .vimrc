@@ -15,10 +15,10 @@ set smarttab
 set softtabstop=4
 set tabstop=4
 
-au FileType gitcommit setlocal tw=72 shiftwidth=2 softtabstop=2
+au FileType gitcommit setlocal tw=71 shiftwidth=2 softtabstop=2
 au FileType make setlocal noexpandtab
-au FileType python setlocal tw=80
-au FileType yaml setlocal tw=80 shiftwidth=2 softtabstop=2
+au FileType python setlocal tw=79
+au FileType yaml setlocal tw=79 shiftwidth=2 softtabstop=2
 
 hi Comment ctermfg=darkgreen
 hi Search ctermbg=cyan ctermfg=black
@@ -29,3 +29,5 @@ au BufWinEnter * let w:m1=matchadd('OverLength', '.\%>80v')
 au BufWinEnter * let w:m2=matchadd('ExtraWhitespace', '\s\+$')
 
 filetype indent on
+
+set encoding=utf-8
