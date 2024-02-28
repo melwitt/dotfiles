@@ -1,4 +1,4 @@
-This is for enabling syntax highlighting on mac
+"This is for enabling syntax highlighting on mac
 filetype plugin indent on
 syntax on
 
