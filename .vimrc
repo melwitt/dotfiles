@@ -14,6 +14,7 @@ set showmatch
 set smarttab
 set softtabstop=4
 set tabstop=4
+set nofixeol
 
 au FileType gitcommit setlocal tw=71 shiftwidth=2 softtabstop=2
 au FileType make setlocal noexpandtab
